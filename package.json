@@ -1,0 +1,29 @@
+{
+  "name": "tailwindbrad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "css-loader": "^6.7.3",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "postcss-preset-env": "^8.2.0",
+    "style-loader": "^3.3.2",
+    "tailwindcss": "^3.3.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "cssnano": "^6.0.0"
+  }
+}
